@@ -3,7 +3,7 @@ import { Formulario } from "./components/Formulario";
 import { Header } from "./components/Header";
 import { Tabela } from "./components/Tabela";
 
-const App = () => {
+export const App = () => {
 
   const [valor, setValor] = useState();
   const [quantidade, setQuantidade] = useState();
