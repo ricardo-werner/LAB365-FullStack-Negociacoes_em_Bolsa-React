@@ -1,6 +1,5 @@
-import PropTypes from "prop-types";
-
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { GrupoInput } from "./GrupoInput";
 
 export const Formulario = (props) => {
