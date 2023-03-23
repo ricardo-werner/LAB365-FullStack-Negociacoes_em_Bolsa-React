@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { TabelaLinha } from "./TabelaLinha";
@@ -17,9 +18,9 @@ export const Tabela = ({ negociacoes }) => {
   }
 
   return (
-    <div class="my-5">
-      <table class="table table-hover table-bordered">
-        <thead class="table-primary">
+    <div className="my-5">
+      <table className="table table-hover table-bordered">
+        <thead className="table-primary">
           <tr>
             <th>DATA</th>
             <th>QUANTIDADE</th>

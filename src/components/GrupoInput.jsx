@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -10,7 +11,7 @@ export const GrupoInput = (props) => {
         type={tipo}
         id={id}
         className="form-control"
-        isRequired
+        required
         min={min}
         step={step}
         value={valor}
