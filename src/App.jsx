@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <Header titulo="Negociações" />
+      <Header titulo="Negociações em Bolsa" />
       <div className="container">
         <Formulario quandoAdicionar={addNegociacao} />
         <Tabela negociacoes={negociacoes} />
